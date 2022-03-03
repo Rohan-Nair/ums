@@ -1,0 +1,64 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(174, 141, 204),
+    rgb(174, 141, 204)
+  );
+}
+.loginform {
+  margin: 100px auto;
+  width: 350px;
+  background-color: white;
+  padding: 60px;
+}
+.logo {
+  /* background-image: linear-gradient(to bottom right, rgb(154, 154, 209),rgb(174, 141, 204); */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(174, 141, 204),
+    rgb(174, 141, 204)
+  );
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  margin: -41px auto;
+  margin-bottom: 10px;
+}
+.logo img {
+  width: 100%;
+}
+.title,
+.subtitle {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.title {
+  font-weight: bold;
+  font-size: 26px;
+}
+.subtitle {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.form {
+  width: 100%;
+  margin-top: 10px;
+}
+.form input {
+  font-size: 15px;
+  padding: 10px 20px 10px 5px;
+  border: none;
+  outline: none;
+  background: none;
+}
+.username,
+.password {
+  display:block;
+  border-radius: 30%;
+  border: 1px solid black;
+  padding: 7px;
+  margin: 8px 0;
+}
