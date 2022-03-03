@@ -11,7 +11,7 @@ body {
 .loginform {
   margin: 100px auto;
   width: 350px;
-  background-color: white;
+  background-color: rgb(190, 189, 190);
   padding: 60px;
 }
 .logo {
@@ -56,9 +56,18 @@ body {
 }
 .username,
 .password {
-  display:block;
-  border-radius: 30%;
+  display: block;
+  border-radius: 30px;
   border: 1px solid black;
-  padding: 7px;
-  margin: 8px 0;
+  padding: 6px;
+  margin: 10px 0;
+}
+button.loginbutton{
+  width: 100%;
+  padding: 13px 20px;
+  border: none;
+  font-size: 25px;
+  border-radius: 30px;
+  background-color: rgb(160, 94, 154);
+  margin-bottom: -15px;
 }
