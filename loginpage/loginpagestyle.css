@@ -2,25 +2,30 @@
   font-family: "Lato", sans-serif;
 }
 body {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom right,
     rgb(174, 141, 204),
     rgb(174, 141, 204)
-  );
+  ); */
+  background-image : url(uni.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .loginform {
   margin: 100px auto;
   width: 350px;
-  background-color: rgb(190, 189, 190);
+  /* background-color: rgb(190, 189, 190); */
+  background: rgba(156, 149, 161, 0.301);
   padding: 60px;
 }
 .logo {
   /* background-image: linear-gradient(to bottom right, rgb(154, 154, 209),rgb(174, 141, 204); */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom right,
     rgb(174, 141, 204),
     rgb(174, 141, 204)
-  );
+  ); */
   height: 140px;
   width: 140px;
   border-radius: 50%;
@@ -61,6 +66,8 @@ body {
   border: 1px solid black;
   padding: 6px;
   margin: 10px 0;
+  background-color: rgba(156, 149, 161, 0.301);
+  
 }
 button.loginbutton {
   width: 100%;
@@ -76,4 +83,8 @@ button.loginbutton a{
   text-decoration:none;
   color: black;
   font-weight: bold;
+}
+.password ::placeholder,
+.username ::placeholder{
+  color: black;
 }
