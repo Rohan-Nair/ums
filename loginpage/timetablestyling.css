@@ -22,10 +22,13 @@ body {
     margin-right: auto;
     margin-top: auto;
     margin-top: ; */
-  display: grid;
-  place-items: center;
+  /* display: grid;
+  place-items: center; */
   /* the above commented code can also be used to centre the table on x axis */
-  
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .headings th {
   font-size: 22px;
