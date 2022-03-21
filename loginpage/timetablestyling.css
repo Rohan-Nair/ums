@@ -2,11 +2,15 @@
   font-family: "Lato", sans-serif;
 }
 body {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom right,
     rgb(174, 141, 204),
     rgb(174, 141, 204)
-  );
+  ); */
+  background-image : url(uni.jpg);
+  background-repeat: no-repeat;
+  
+  background-size: cover;
 }
 .headings th,
 .content td {
